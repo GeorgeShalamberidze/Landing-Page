@@ -126,7 +126,6 @@ body{
 }
 
 #nav-bar li a:hover{
-    border-bottom: 2px solid black;
     color: #e8491d;
     font-weight: bold;
 }
@@ -192,6 +191,7 @@ body{
         text-align: center;
         align-items: center;
     }
+
     .container1{
         height: 60px;
     }
@@ -215,6 +215,9 @@ body{
 }
 
 @media(max-width: 485px){
+    #nav-bar li{
+        font-size: 15px;
+    }
     .orange,
     .fas span{
         font-size:22px;
